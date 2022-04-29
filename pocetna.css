@@ -1,0 +1,158 @@
+#navBar{
+    width: 100%;
+    position: absolute;
+    top:0;
+    display: flex;
+}
+#ljeviDioNavBara{
+    position: absolute;
+    top: 10px;
+    width: 20%;
+    height: 100%;
+    background-color: rgb(43, 73, 222);
+    border-right: 150px solid white;
+    border-top: 120px solid transparent;
+
+}
+
+#desniDioNavBara{
+    position: absolute;
+    top: 10px;
+    right: 0%;
+    width: 60%;
+    height: 100%;
+    background-color: rgb(14, 34, 136);
+    border-left: 150px solid white;
+    border-bottom: 120px solid transparent;
+}
+#content{
+    width: 100%;
+    height:90%;
+
+}
+#prozor1{
+    position: absolute;
+    background-color: white;
+    width: 35%;
+    height: 50%;
+    left: 5%;
+    top: 12%;
+    margin: 5%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#prozor2{
+    position: absolute;
+    background-color: white;
+    width: 35%;
+    height: 50%;
+    left: 50%;
+    top: 12%;
+    margin: 5%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#prozor1:hover{
+    position: absolute;
+    background-color: white;
+    width: 36%;
+    height: 52%;
+    left: 5%;
+    top: 12%;
+    margin: 4.5%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#prozor2:hover{
+    position: absolute;
+    background-color: white;
+    width: 36%;
+    height: 52%;
+    left: 50%;
+    top: 12%;
+    margin: 4.5%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.desniDioProzora{
+    position: absolute;
+    width: 45%;
+    height: 90%;
+    left: 5%;
+    right: 5%;
+    top: 5%;
+}
+.miniSlika{
+    width:100%;
+    height: 65%;
+    border-radius: 10px;
+
+}
+.voice{
+    position: relative;
+    width: 100%;
+    height: 35%;
+}
+.osnovniPodatci{
+    position: absolute;
+    width:45%;
+    height:90%;
+     left: 55%;
+    right: 5%;
+    top: 5%;
+}
+#footer{
+    width: 100%;
+    position: absolute;
+    bottom:0;
+    display: flex;
+}
+#ljeviDioFootera{
+    position: absolute;
+    bottom: 10px;
+    left: 0%;
+    width: 60%;
+    height: 100%;
+    background-color: rgb(14, 34, 136);
+    border-right: 150px solid white;
+    border-top: 120px solid transparent;}
+#desniDioFootera{  
+    position: absolute;
+    bottom: 10px;
+    right: 0px;    
+    width: 20%;
+    height: 100%;
+    background-color: rgb(43, 73, 222);
+    border-left: 150px solid white;
+    border-bottom: 120px solid transparent;}
+audio{
+    width: 100%;
+    
+}
+
+#slikaMarko{background-image: url("marko.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 70%;}
+#slikaKarlo{background-image: url("Karlo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 70%;}
+.naslov{
+    color: rgb(45,45,45);
+}
+#onlineCv{
+    position: absolute;
+    top: -100px;
+    left: 50px;
+}
+#onlineCv h1{
+    color: white;}
+#footerC{
+    color: white;
+    position: absolute;
+    bottom: 50px;
+    left:50px;
+}

@@ -1,0 +1,74 @@
+<html lang="en">
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marko</title>
+    <link rel="stylesheet" href="pocetna.css">
+    <link rel="stylesheet" href="pojedinacna.css">
+  
+</head>
+<body>
+    <div id="navBar">
+
+        <div id="ljeviDioNavBara"> <div id="onlineCv" onclick="window.location.href ='pocetna.html'"> <h1>Online Cv</h1> </div>
+
+        <a href=".index.html"></a>
+        </div>
+        <div id="desniDioNavBara"></div>
+    </div>
+
+    <div id="ljevaStrana">
+
+    <div id="img2"></div>
+    >
+    <video controls id="video1">
+        <source src="markoVideo.mp4" type="video/mp4">
+    </video>
+    <div id="strijelica"></div>
+    </div>
+
+    
+    <script>
+        // Get the img object using its Id
+        img = document.getElementById("img1");
+        // Function to increase image size
+        function enlargeImg() {
+        // Set image size to 1.5 times original
+        img.style.transform = "scale(1.5)";
+        // Animation effect 
+        img.style.transition = "transform 0.25s ease";
+        }
+        // Function to reset image size
+        function resetImg() {
+        // Set image size to original
+        img.style.transform = "scale(1)";
+        img.style.transition = "transform 0.25s ease";
+            }
+    </script>
+      />
+      <br /><br /><br />
+
+
+
+    </div>
+
+
+    <div id="desnaStrana">
+        <div>
+            <div class="info" id="osobniPodatci">Osobni podatci</div>
+            <div class="info" id="obrazovanje" >Obrazovanje</div>
+            <div class="info" id="vjestine" >Vještine</div>
+            <div class="info" id="ostaleInformacije">Ostale informacije</div>
+        </div>
+        <div id="osobniPodatci2" class="defult">Ime: Marko <br><br> Prezime: Katić<br><br>  Mail: markokatic619@gmail.com <br><br> 
+        Datum rođenja: 29.12.2000. <br><br> Mjesto stanovanja: Donji Miholjac <br><br>
+        </div>
+        <div id="obrazovanje2" class="nevidljivo">Osnovna škola: <a href="http://os-aharambasica-donjimiholjac.skole.hr">Osnovna škola "August Harambašić"</a> <br><br> Srednja škola: <a href="https://ss-valpovo.hr">Srednja škola Valpovo</a>, smjer: Elektrotehničar <br><br> Fakultet: <a href="https://www.ferit.unios.hr/2021/">Fakultet elektrotehnike, računarstva i informacijskih tehnologija</a>, smjer: Računarstvo</div>
+        <div id="vjestine2" class="nevidljivo">Odlično poznavanje programskih jezika c, c++, java, PHP, html, css, javascript. Dobro poznavanje pythona i programiranja u frameworku django. Imam iskustva u programiranju umjetne inteligencije. <br><br> Odlično snalaženje u programu Autocad. <br><br> Vrlo dobro pisanje i govor engleskog jezika.</div>
+        <div id="ostaleInformacije2" class="nevidljivo">-Hobiji: <br><br> Obaranje ruku <br><br> Rad na automobilu<br><br> Pump Track biciklizam </div>
+    </div>
+    <script src="./marko.js"></script>
+</body>
+</html>
