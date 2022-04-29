@@ -156,3 +156,18 @@ audio{
     bottom: 50px;
     left:50px;
 }
+.linkKolege{
+    text-decoration: none;
+    font-size: 20;
+    color: white;
+    position: relative;
+    margin-left: 20%;
+}
+#linkovi{margin-top: 5%;}
+#feritLink{margin-top: 15%;}
+#feritLink a{
+    text-decoration: none;
+    color: white;
+    margin-top: 10%;
+    margin-left: 30%;
+}
