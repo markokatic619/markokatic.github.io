@@ -20,32 +20,46 @@
     <div id="ljevaStrana">
 
     <div id="img2"></div>
-    >
+    
     <video controls id="video1">
         <source src="markoVideo.mp4" type="video/mp4">
     </video>
     <div id="strijelica"></div>
     </div>
 
-    
+
+<!---------------------------------->
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+    </div>
+
     <script>
-        // Get the img object using its Id
-        img = document.getElementById("img1");
-        // Function to increase image size
-        function enlargeImg() {
-        // Set image size to 1.5 times original
-        img.style.transform = "scale(1.5)";
-        // Animation effect 
-        img.style.transition = "transform 0.25s ease";
+        // Get the modal
+        var modal = document.getElementById("myModal");
+        
+        // Get the image and insert it inside the modal - use its "alt" text as a caption
+       // var img = document.getElement("img1");
+        var img = document.getElementById("img2");
+        var modalImg = document.getElementById("img01");
+        img.onclick = function(){
+          modal.style.display = "block";
+          modalImg.src = "marko.jpg";
         }
-        // Function to reset image size
-        function resetImg() {
-        // Set image size to original
-        img.style.transform = "scale(1)";
-        img.style.transition = "transform 0.25s ease";
-            }
-    </script>
-      />
+        
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+        
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() { 
+          modal.style.display = "none";
+        }
+        </script>
+
+    <div>
       <br /><br /><br />
 
 
